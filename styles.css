@@ -8,13 +8,13 @@
 
 body {
   font-family: 'Montserrat', sans-serif;
-  
 }
 .wrapper{
     width: 100vw;
     height: 100vh;
     background-color: #191c32;
     color: #fff;
+    font-size: 50px;
 }
 .navbar{
     display: flex;
@@ -36,6 +36,7 @@ body {
 }
 .menu li{
     list-style: none;
+    font-weight: bold;
 }
 .menu a{
     color:#fff;
@@ -49,4 +50,40 @@ body {
     background-color: #236abb;
     color: #191c32;
     transition: ease-in .4s;
+}
+.main{
+    margin: 0 auto;
+    width: 80vw;
+    height: 80vh;
+    display: grid;
+    grid-template-columns:repeat(2,1fr);
+    align-items: center;
+}
+h1{
+    font-size: 3em;
+
+}
+span{
+    color: #236abb;
+}
+.download-cv{
+    width: 200px;
+    height: 70px;
+    padding: 10px 20px;
+    background-color: rgb(35, 106, 187);
+    border: none;
+    border-radius: 20px;
+    margin-top: 50px;
+    cursor: pointer;
+    font-size: 25px;
+    box-shadow: 1px 3px 11px -5px rgb(223, 227, 233)
+}
+.download-cv:hover{
+    background-color: #fff;
+    box-shadow: none;
+}
+.main img{
+    width: 950px;
+    height: 850px;
+    margin-left: 250px;
 }
