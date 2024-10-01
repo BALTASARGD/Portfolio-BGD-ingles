@@ -87,6 +87,7 @@ span{
     height: 850px;
     margin-left: 250px;
     border-radius: 50%;
+    box-shadow: 20px 0px 30px 0px #f6f9fc;
 }
 /*About me section*/
 .about-me{
@@ -255,11 +256,27 @@ span{
   margin-left: 200px;
   background-color: #191c32;
 }
-.contacto h2{
-font-size: 70px;
-margin-top: 200px;
-text-align: start;
-padding-bottom: 100px;
+.contacto h2 {
+font-size: 50px;
+padding-bottom: 150px;
+margin-left: -200px;
+}
+.contacto h3{
+  margin-top: 30px;
+ font-weight: normal;
+  
+}
+.contacto .fila{
+  margin-top: 200px;
+  
+}
+.divider-contact{
+  color: #fff;
+  height: 12px;
+  width: 80px;
+  background-color: #236abb;
+  margin-left: -200px;
+  margin-top: -150px;
 }
 .contacto .fila{
 display: flex;
@@ -308,15 +325,16 @@ cursor: pointer;
 }
 /*FOOTER SECTION*/
 .footer {
+  font-size: 80px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   width: 100vw;
-  height: 400px;
+  height: 600px;
   padding: 2em;
   background-color:#191c32;
-  color: #0564a0;
+  color:#fff;
 }
 .footer-content h2 {
   font-size: 1em;
@@ -337,6 +355,11 @@ cursor: pointer;
 .sotial-networks  a i {
   font-size: 60px;
   color: #0564a0;
+}
+.sotial-networks a i:hover{
+  color: #fff;
+  transition: 0.5;
+  scale: 2;
 }
 
 
