@@ -7,6 +7,7 @@
   <title>Portfolio-BGD-en</title>
   <link rel="stylesheet" href="./styles.css">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
     <div class="wrapper">
@@ -16,24 +17,203 @@
                     <h2>B<span>G</span></h2>
                 </div>
                 <ul class="menu">
-                    <li><a class="active" href="#">Home</a></li>
-                    <li><a class="active" href="#">About me</a></li>
-                    <li><a class="active" href="#">My projects</a></li>
-                    <li><a class="active" href="#">Contact</a></li>
+                    <li><a class="active" href="#home">Home</a></li>
+                    <li><a class="active" href="#about">About me</a></li>
+                    <li><a class="active" href="#skills">Skills</a></li>
+                    <li><a class="active" href="#my-projects">My projects</a></li>
+                    <li><a class="active" href="#contact">Contact</a></li>
                 </ul>
             </div>
         </header>
         <main class="main">
             <div class="info-content">
                 <h1>I'm <span>Balta</span> Garcia</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa labore minus explicabo amet pariatur odit nihil animi! Fugit deserunt enim, laboriosam exercitationem nam corporis molestias sit modi voluptates ut consequatur!</p>
+                <p>a Junior Web Developer based in Germany.</p>
                 <a download href="#"><button class="download-cv" download="#">Download CV</button></a>
             </div>
-            <img src="./images/IMG_1429-removebg-preview.png" alt="Balta's profile picture">
+            <img src="./images/foto perfil redes.png" alt="Balta's profile picture">
         </main>
     </div>
-    
+    <section id="about">
+    <div class="about-me">
+        <img src="./images/foto-perfil-portfolio.jpg" alt="">
+        <div class="about-info">
+            <h2>About me</h2>
+            <div class="divider-about"></div>
+            <p>Hello World, I'm Balta Garcia</p>
+            <br>
+            <p>a Junior Web Developer located in Germany.</p>
+            <br>
+            <p>I am deeply interested in developing dynamic, responsive, and user-friendly websites. Since I was young, I have shown a strong interest in computer science, programming, and design, which has evolved into a true passion for web development.</p>
+            <br>
+            <p>Feel free to check out my portfolio, where you can find examples of my projects that showcase my skills and commitment to web development. Each project reflects a significant step in my development journey.</p>
+            <button class="download-cv">Read more</button>
+        </div>
+    </div>
+    </section>
+    <section id="skills">         
+        <div class="container">
+            <div class="box" id="habilidadesTecnicas">
+                <div class="contenedor-intereses">
+                    <h3>My Skills</h3>
+                    <div class="interes">
+                        <i class="fa-brands fa-html5" style="color: #e7a240;">&nbsp;&nbsp;&nbsp;Html</i>
+                    </div>
+                    <div class="interes">
+                        <i class="fa-brands fa-css3" style="color: #3374e4;">&nbsp;&nbsp;&nbsp;Css</i></li>
+                    </div>
+                    <div class="interes">
+                        <i class="fa-brands fa-sass" style="color: #ea4394;">&nbsp;&nbsp;&nbsp;Sass</i>
+                    </div>
+                    <div class="interes">
+                        <i class="fa-brands fa-js" style="color: #FFD43B;">&nbsp;&nbsp;&nbsp;JS</i>
+                    </div>
+                    <div class="interes">
+                        <i class="fa-brands fa-markdown" style="color: #050200;">&nbsp;&nbsp;&nbsp;Md</i></i>
+                    </div>
+                    <div class="interes">
+                        <i class="fa-brands fa-github" style="color: #f25a07;">&nbsp;&nbsp;&nbsp;Git</i>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="box" id="intereses">
+                <div class="contenedor-intereses">
+                        <h3>Interests<br><br></h3>
+                        
+                        <div class="interes">
+                            <i class="fa-solid fa-gamepad">&nbsp;&nbsp;&nbsp;Juegos</i>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-headphones">&nbsp;&nbsp;&nbsp;Musica</i>
+                            
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-plane">&nbsp;&nbsp;&nbsp;Viajes</i>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-brands fa-apple">&nbsp;&nbsp;&nbsp;ios</i>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-book">&nbsp;&nbsp;&nbsp;Lectura</i>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-camera">&nbsp;&nbsp;&nbsp;Fotografia</i>
+                        </div>
+                </div>
+            </div>
+        </div>
+        <a id=inicio  href="#inicio">
+            <i class="fa-solid fa-house volver" style="color: #06426f;"></i>
+        </a>
+    </section> 
+    <section class="portafolio" id="my-projects">
+        <div class="contenedor">
+            <h2 class="titulo">My Projects</h2>
+            <div class="divider-about"></div>
+            <div class="galeria-proyecto">
+                <div class="imagen-proyecto">
+                    <img src="./images/proyectoMAT.png" alt="foto">
+                    <div class="hover-galeria">
+                        <img src="./images/icono1.png"  alt="foto">
+                        <p>HTML/CSS</p>
+                        <a href="./mis proyectos/Pagina web Balta Garcia/index.html">Abrir Proyecto</a>
+                    </div>
+                </div>
+                <div class="imagen-proyecto">
+                    <img src="./images/Egipto.png" alt="foto">
+                    <div class="hover-galeria">
+                        <img src="./images/icono1.png" alt="foto">
+                        <p>HTML/CSS</p>
+                        <a href="./mis proyectos/Kleiner Blog/index.html">Abrir Proyecto</a>
+                    </div>
+                </div>
 
+                <div class="imagen-proyecto">
+                    <img src="./images/Zoom.png" alt="foto">
+                    <div class="hover-galeria">
+                        <img src="./images/icono1.png" alt="foto">
+                        <p>HTML/CSS</p>
+                        <a href="./mis proyectos/uib-layout-zoom-session-BALTASARGD/index.html">Abrir Proyecto</a>
+                        
+                    </div>
+                </div>
+                <div class="imagen-proyecto">
+                    <img src="./images/project-portfolio-espanol.png" alt="foto">
+                    <div class="hover-galeria">
+                        <img src="./images/icono1.png" alt="foto">
+                        <p>HTML/CSS</p>
+                        <a href="./mis proyectos/PORTFOLIO-BGD/index.html">Abrir Proyecto</a>
+                    </div>
+                </div>
+                <div class="imagen-proyecto">
+                    <img src="./images/musicplayer.png" alt="foto">
+                    <div class="hover-galeria">
+                        <img src="./images/icono1.png" alt="foto">
+                        <p>HTML/CSS</p>
+                        <a href="./mis proyectos/uib-layout-neumorphic-music-player-BALTASARGD/index.html">Abrir Proyecto</a>
+                    </div>
+                </div>
+                <div class="imagen-proyecto">
+                    <img src="./images/Design" alt="foto">
+                    <div class="hover-galeria">
+                        <img src="./images/icono1.png" alt="foto">
+                        <p>HTML/CSS</p>
+                        <a href="./mis proyectos/uib-layout-grid-design-studio-BALTASARGD/index.html">Abrir Proyecto</a>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+     <!-- SECCION CONTACTS -->
+     <seccion class="contacto" id="contact">
+        <div class="contenedor-contacto">
+            <h2>Contact</h2>
+            <div class="divider-contact"></div>
+            <h3>I am enthusiastic about learning and collaborating on exciting projects. Feel free to contact here</h3>
+            <div class="divider-about"></div>
+            <div class="fila">
+                <div class="col">
+                    <div class="info">
+                        <h3>E-mail</h3>
+                        <p>baltasar.garcia@dci-student.org</p>
+                    </div>
+                    <div class="info">
+                        <h3>Phone</h3>
+                        <p>+49-17657808931</p>
+                    </div>
+                    <div class="info">
+                        <h3>Country</h3>
+                        <p>Germany</p>
+                    </div>
+                    <div class="info">
+                        <h3>City</h3>
+                        <p>Köln</p>
+                    </div>
+               </div>
+               <div class="form">
+                    <input type="text" placeholder="Name...">
+                    <input type="text" placeholder="Your email...">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Message"></textarea>
+                 </div>
+            </div>
+            <input type="submit" value="Enviar" class="download-cv btn">
+        </div>
+        
+    </seccion>
+    
+      <footer class="footer"> 
+        <div class="footer-content">
+          <h2>Balta Garcia</h2>
+          <h5>Frontend Developer</h5>
+        <div class="sotial-networks">
+            <a href="http://github.com"><i class="fa-brands fa-github"></i></a>
+            <a href="https://de.linkedin.com/"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://x.com/home?lang=es"><i class="fa-brands fa-twitter"></i></a>
+        </div>
+       
+        
+      </footer>
 
   
 </body>
