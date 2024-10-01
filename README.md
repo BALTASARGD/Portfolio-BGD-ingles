@@ -1,5 +1,5 @@
 # Introduction:
-**Hello!**  
+ 
 My name is **Balta Garcia**, and I am a Junior Web Developer based in Germany. Today, I’d like to introduce you to my portfolio, which showcases my skills and projects in web development.
 
 ---

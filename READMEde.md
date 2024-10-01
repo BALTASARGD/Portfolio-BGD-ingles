@@ -1,5 +1,5 @@
 # Einführung:
-**Guten Tag!**  
+ 
 Ich heiße **Balta Garcia** und ich bin ein Junior Webentwickler mit Sitz in Deutschland. Heute möchte ich Ihnen mein Portfolio vorstellen, das eine Vielzahl meiner Fähigkeiten und Projekte in der Webentwicklung zeigt.
 
 ---
